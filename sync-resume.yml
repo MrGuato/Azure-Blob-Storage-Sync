@@ -1,0 +1,52 @@
+name: Sync Resume to Azure Storage
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'frontend/**'
+
+jobs:
+  sync-to-azure:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Debug Directory
+        run: ls -l frontend  # Verify frontend folder exists before uploading
+
+      - name: Create container if not exists
+        shell: bash
+        run: |
+          az storage container create \
+            --name "${{ secrets.CONTAINER_NAME }}" \
+            --account-name "${{ secrets.STORAGE_ACCOUNT_NAME }}" \
+            --auth-mode login \
+            --public-access off
+
+      - name: Upload to Blob Storage
+        shell: bash
+        run: |
+          az storage blob upload-batch \
+            --account-name "${{ secrets.STORAGE_ACCOUNT_NAME }}" \
+            --auth-mode login \
+            --source "frontend" \
+            --destination "${{ secrets.CONTAINER_NAME }}"
+
+      - name: Purge Front Door Endpoint
+        shell: bash
+        run: |
+          az afd endpoint purge \
+            --resource-group "${{ secrets.RESOURCE_GROUP }}" \
+            --profile-name "${{ secrets.FRONTDOOR_NAME }}" \
+            --endpoint-name "${{ secrets.FRONTDOOR_ENDPOINT }}" \
+            --content-paths "/*" \
+            --no-wait
