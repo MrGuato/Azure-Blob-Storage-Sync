@@ -1,7 +1,6 @@
 # Azure Resume Cloud Challenge - GitHub Actions Workflow
 
 [![Made With Love](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-by%20Jonathan-red)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
-[![CodeQL](https://github.com/MrGuato/Azure-Blob-Storage-Sync/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/MrGuato/Azure-Blob-Storage-Sync/actions/workflows/github-code-scanning/codeql)
 [![Known Vulnerabilities](https://snyk.io/test/github/MrGuato/Azure-Blob-Storage-Sync/badge.svg)](https://app.snyk.io/org/mrguato/Azure-Blob-Storage-Sync)
 [![Language](https://img.shields.io/github/languages/top/MrGuato/Azure-Blob-Storage-Sync?style=flat)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
 [![GitHub stars](https://img.shields.io/github/stars/MrGuato/Azure-Blob-Storage-Sync?style=social)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
