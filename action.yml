@@ -1,0 +1,9 @@
+name: "Sync Files to Azure Storage"
+description: "Sync a directory to an Azure Blob Storage repository"
+author: mrguato
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: blue
