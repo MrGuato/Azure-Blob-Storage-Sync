@@ -6,7 +6,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/MrGuato/Azure-Blob-Sync-Action)](https://github.com/MrGuato/Azure-Blob-Sync-Action) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains a GitHub Actions workflow that automatically syncs your resume website to Azure Storage and manages Azure Front Door cache purging.
+This repository contains a GitHub Actions workflow that automatically syncs your files to Azure Storage and manages Azure Front Door cache purging.
 
 ## Overview
 
