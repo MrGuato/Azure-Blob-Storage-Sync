@@ -1,9 +1,9 @@
 # Azure Blob Sync Action | GitHub Actions Workflow
 
-[![Made With Love](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-by%20Jonathan-red)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
-[![Known Vulnerabilities](https://snyk.io/test/github/MrGuato/Azure-Blob-Storage-Sync/badge.svg)](https://app.snyk.io/org/mrguato/Azure-Blob-Storage-Sync)
-[![GitHub stars](https://img.shields.io/github/stars/MrGuato/Azure-Blob-Storage-Sync?style=social)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
-[![Last Commit](https://img.shields.io/github/last-commit/MrGuato/Azure-Blob-Storage-Sync)](https://github.com/MrGuato/Azure-Blob-Storage-Sync) 
+[![Made With Love](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-by%20Jonathan-red)](https://github.com/MrGuato/Azure-Blob-Sync-Action)
+[![Known Vulnerabilities](https://snyk.io/test/github/MrGuato/Azure-Blob-Sync-Action/badge.svg)](https://app.snyk.io/org/mrguato/Azure-Blob-Sync-Action)
+[![GitHub stars](https://img.shields.io/github/stars/MrGuato/Azure-Blob-Sync-Action?style=social)](https://github.com/MrGuato/Azure-Blob-Sync-Action)
+[![Last Commit](https://img.shields.io/github/last-commit/MrGuato/Azure-Blob-Sync-Action)](https://github.com/MrGuato/Azure-Blob-Sync-Action) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains a GitHub Actions workflow that automatically syncs your resume website to Azure Storage and manages Azure Front Door cache purging.
