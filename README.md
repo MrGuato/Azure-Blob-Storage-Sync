@@ -1,4 +1,4 @@
-# Azure Resume Cloud Challenge - GitHub Actions Workflow
+# Azure Blob Sync Action | GitHub Actions Workflow
 
 [![Made With Love](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-by%20Jonathan-red)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
 [![Known Vulnerabilities](https://snyk.io/test/github/MrGuato/Azure-Blob-Storage-Sync/badge.svg)](https://app.snyk.io/org/mrguato/Azure-Blob-Storage-Sync)
