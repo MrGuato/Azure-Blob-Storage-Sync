@@ -2,9 +2,8 @@
 
 [![Made With Love](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F-by%20Jonathan-red)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
 [![Known Vulnerabilities](https://snyk.io/test/github/MrGuato/Azure-Blob-Storage-Sync/badge.svg)](https://app.snyk.io/org/mrguato/Azure-Blob-Storage-Sync)
-[![Language](https://img.shields.io/github/languages/top/MrGuato/Azure-Blob-Storage-Sync?style=flat)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
 [![GitHub stars](https://img.shields.io/github/stars/MrGuato/Azure-Blob-Storage-Sync?style=social)](https://github.com/MrGuato/Azure-Blob-Storage-Sync)
-[![Last Commit](https://img.shields.io/github/last-commit/MrGuato/AWS-Cloud-Challenge)](https://github.com/MrGuato/Azure-Blob-Storage-Sync) 
+[![Last Commit](https://img.shields.io/github/last-commit/MrGuato/Azure-Blob-Storage-Sync)](https://github.com/MrGuato/Azure-Blob-Storage-Sync) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains a GitHub Actions workflow that automatically syncs your resume website to Azure Storage and manages Azure Front Door cache purging.
@@ -65,6 +64,7 @@ on:
 
 ## File Structure
 Your repository should have the following structure:
+
 ```mermaid
 graph TD
     A[.github] --> B[workflows]
